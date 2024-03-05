@@ -1,0 +1,6 @@
+scrapy startproject <name>
+scrapy genspider <spider-name>
+
+add shell= ipython to cfg
+fetch('<webpage_url>')
+scrapy crawl bookspider
